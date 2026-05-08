@@ -3,7 +3,7 @@ class Order {
     private double price;
     private int quantity;
 
-    // Constructor
+    
     Order(String name, double price, int quantity) throws Exception {
 
         if (price <= 0)
